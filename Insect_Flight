@@ -1,0 +1,21 @@
+import InsectClass as c
+
+
+def main():
+       mosquito = c.insect(10,20)
+       housefly = c.insect(10, 2400523)
+
+       mosquito.length_of_flight()
+       housefly.length_of_flight()
+
+       print("the mosquito can fly up to",mosquito.get_length_of_flight(),"miles")
+       print("the hosuefly can fly up to",housefly.get_length_of_flight(),"miles")
+
+       #my_insect = c.insect()
+
+       #print('The init defines flight time as:', my_insect.get_length_of_flight())
+
+       #my_insect.length_of_flight()
+       #print('The final flight time is:', my_insect.get_length_of_flight())
+
+main()
