@@ -10,10 +10,10 @@ class StudentClass:
         self.__Classification = Classification
 
 #Create a method that will calculate the 
-#student’s current age
+#student’s current age (accessor)
 
 #Create a method that will determine when 
-#the student can  register
+#the student can  register (accessor)
 
 #Create a method to return the age and another 
-#method to return the registration dates.
+#method to return the registration dates. (accessor)
